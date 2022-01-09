@@ -32,8 +32,8 @@ Current plan is to keep it up-to-date.
             "bio": "<string>",
             "skills": [ 
                 [ 
-                    {"tier1": [<id>, ...]},
-                    {"tier2": [<id>, ...]}
+                    {"tier1": ["<id>", ...]},
+                    {"tier2": ["<id>", ...]}
                 ]
             ]
         }
