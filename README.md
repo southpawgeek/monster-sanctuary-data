@@ -30,13 +30,10 @@ Current plan is to keep it up-to-date.
         "<id>": {
             "name": "<string>",
             "bio": "<string>",
-            "skills": [ // array of arrays...
-                [ // each array represents a skill tree
-                    // and will contain 5 tiers
-                    // each tier contains an array of skill IDs
+            "skills": [ 
+                [ 
                     {"tier1": [<id>, ...]},
                     {"tier2": [<id>, ...]}
-                // and so on
                 ]
             ]
         }
