@@ -24,17 +24,20 @@ Current plan is to keep it up-to-date.
 
 
 ### Data structure (partial)
-```json
+```js
 {
     "monsters": {
         "<id>": {
             "name": "<string>",
             "bio": "<string>",
-            "skills": [ 
-                [ 
-                    {"tier1": ["<id>", "..."]},
-                    {"tier2": ["<id>", "..."]}
-                ]
+            "skills": [ // contains an array for each tree
+                [ // each tree contains an array for each tier
+                    [ // each tier array has skill IDs
+                        "1", "2", "3"
+                        // these will correspond with the IDs in the skills structure
+                    ]
+                ],
+                [ [], [], [], [], [] ] // and so on
             ]
         }
     },
