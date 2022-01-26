@@ -26,6 +26,41 @@ Current plan is to keep it up-to-date.
 ### Data structure (partial)
 ```js
 {
+    "equipment": {
+        "<id>": {
+        "attack": "0",
+        "crit": "0%",
+        "damageBonus": "0",
+        "defense": "0",
+        "familiarOnly": true,
+        "fullDefenseInOffhand": true,
+        "healBonus": "0",
+        "health": "0",
+        "icon": "<string>",
+        "magic": "0",
+        "mana": "0",
+        "manaRegeneration": "0",
+        "name": "<string>",
+        "price": "0",
+        "type": "0",
+        "unique": true,
+        "unshiftedOnly": true,
+        "upgradeMaterials": [ // array of item objects
+            {
+                "item": "<id>",
+                "quantity": "0"
+            }
+        ],
+        "upgradesTo": "<id>"
+    },
+    "materials": {
+        "<id>": {
+            "desc": "<string>",
+            "level": "0",
+            "name": "<string>",
+            "price": "0"
+        }
+    },
     "monsters": {
         "<id>": {
             "name": "<string>",
