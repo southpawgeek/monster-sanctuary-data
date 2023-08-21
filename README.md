@@ -32,7 +32,7 @@ Current plan is to keep it up-to-date.
 
 ### Data examples
 
-```json
+```js
 {
     "equipment": {
         "<id>": {
